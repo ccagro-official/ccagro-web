@@ -11,7 +11,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "cc-agro-3d-demo-1"
+      "service": "ccagro-web"
     }
   ]
 }
