@@ -22,9 +22,9 @@ export default function Footer() {
         <div className="space-y-4">
           <h4 className="text-lg font-semibold text-white">Contact</h4>
           <ul className="space-y-2 text-sm">
-            <li>+91 98765 43210</li>
-            <li>info@ccagro.com</li>
-            <li>123 Farming District, State, Country</li>
+            <li>+91 96572 72406</li>
+            <li>ccagro.official@gmail.com</li>
+            <li>412306 Baramati, Pune, Maharashtra, India</li>
           </ul>
         </div>
       </div>
