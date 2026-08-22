@@ -2,7 +2,7 @@ import { BookOpen } from "lucide-react";
 
 export default function GuidanceSection() {
   return (
-    <section className="py-24 px-6 bg-white w-full">
+    <section id="guidance" className="scroll-mt-24 py-24 px-6 bg-white w-full">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand-primary/10 mb-4">
           <BookOpen className="w-8 h-8 text-brand-primary" />

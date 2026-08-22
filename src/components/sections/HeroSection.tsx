@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+import { ButtonLink } from "@/components/ui/Button";
 
 export default function HeroSection() {
   return (
@@ -16,8 +16,8 @@ export default function HeroSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <Button size="lg">Explore Our Services</Button>
-          <Button variant="outline" size="lg">Contact Us Today</Button>
+          <ButtonLink href="#services" size="lg">Explore Our Services</ButtonLink>
+          <ButtonLink href="#contact" variant="outline" size="lg">Contact Us Today</ButtonLink>
         </div>
       </div>
 

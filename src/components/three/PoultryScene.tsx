@@ -1,8 +1,7 @@
 "use client";
 
-import { useRef } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Environment, SoftShadows, AdaptiveDpr } from "@react-three/drei";
+import { Environment, AdaptiveDpr } from "@react-three/drei";
 import { MotionValue } from "framer-motion";
 import StoryController from "./StoryController";
 
@@ -13,7 +12,7 @@ interface PoultrySceneProps {
 export default function PoultryScene({ progress }: PoultrySceneProps) {
   return (
     <Canvas
-      shadows
+      shadows="percentage"
       camera={{ position: [0, 2, 8], fov: 35 }}
       gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
     >
@@ -30,7 +29,6 @@ export default function PoultryScene({ progress }: PoultrySceneProps) {
       
       {/* Environment for natural reflections */}
       <Environment preset="sunset" />
-      <SoftShadows size={15} samples={10} focus={0.5} />
       <AdaptiveDpr pixelated />
 
       {/* Controller for Timeline & Models */}

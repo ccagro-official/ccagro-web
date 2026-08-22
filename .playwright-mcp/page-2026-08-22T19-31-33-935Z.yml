@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: CC Agro
+        - generic [ref=e6]:
+          - link "Offerings" [ref=e7] [cursor=pointer]:
+            - /url: "#guidance"
+          - link "Gallery" [ref=e8] [cursor=pointer]:
+            - /url: "#gallery"
+          - link "Guidance" [ref=e9] [cursor=pointer]:
+            - /url: "#"
+        - link "Get Quote" [ref=e11] [cursor=pointer]:
+          - /url: "#contact"
+    - generic:
+      - generic [ref=e12]:
+        - heading "Trusted Poultry Trading & Farm Growth Solutions" [level=1] [ref=e13]: Trusted Poultry Trading &Farm Growth Solutions
+        - paragraph [ref=e14]: From 1-day old chicks to premium desi chicken, we provide the best quality birds, feed, equipment, and expert guidance for your poultry business.
+        - generic [ref=e15]:
+          - button "Explore Our Services" [ref=e16]
+          - button "Contact Us Today" [ref=e17]
+      - generic [ref=e18]: Scroll to explore
+    - generic [ref=e22]:
+      - generic:
+        - generic:
+          - generic:
+            - heading "The Beginning" [level=2]
+            - paragraph: Every successful poultry farm starts with premium quality eggs. We source only the best layers to ensure high hatchability.
+        - generic:
+          - generic:
+            - heading "A New Life" [level=2]
+            - paragraph: Our 1-day old chicks are healthy, vaccinated, and carefully transported. The perfect start for your growing flock.
+        - generic:
+          - generic:
+            - heading "Optimal Nutrition" [level=2]
+            - paragraph: We provide high-grade poultry feed mapped to every growth stage, ensuring steady, healthy growth and strong immunity.
+        - generic:
+          - generic:
+            - heading "Strong & Healthy" [level=2]
+            - paragraph: With the right environment and our expert farming guidance, your birds grow resilient, hitting optimal weights quickly.
+        - generic:
+          - generic:
+            - heading "Premium Desi Chicken" [level=2]
+            - paragraph: Fully grown, top-quality desi chickens ready for the market. CC Agro provides trusted trading you can count on.
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Our Products & Services" [level=2] [ref=e29]
+        - paragraph [ref=e30]: Everything you need for a successful poultry business, from premium birds to expert consultation.
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Desi Chicken" [level=3] [ref=e37]
+          - paragraph [ref=e38]: High-quality, farm-raised desi chickens for commercial trading.
+        - generic [ref=e39]:
+          - heading "1 Day Old Chicks" [level=3] [ref=e43]
+          - paragraph [ref=e44]: Healthy, vaccinated day-old chicks to start your flock.
+        - generic [ref=e45]:
+          - heading "Poultry Feed" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Nutritionally balanced feed for all growth stages.
+        - generic [ref=e52]:
+          - heading "Poultry Equipment" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Modern feeders, drinkers, and climate control tools.
+        - generic [ref=e59]:
+          - heading "Business Guidance" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Consultation and training for new poultry farmers.
+        - generic [ref=e65]:
+          - heading "Reliable Supply" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Consistent delivery and logistics for your farm's needs.
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Why Partner With CC Agro?" [level=2] [ref=e77]
+        - paragraph [ref=e78]: We don't just supply birds; we partner with you to ensure your poultry business thrives. With strict quality control, reliable logistics, and continuous support, we make farming profitable and stress-free.
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - generic [ref=e84]: Premium quality desi birds
+          - listitem [ref=e85]:
+            - generic [ref=e89]: 100% vaccinated and healthy chicks
+          - listitem [ref=e90]:
+            - generic [ref=e94]: Reliable and on-time logistics
+          - listitem [ref=e95]:
+            - generic [ref=e99]: Expert farming consultation
+          - listitem [ref=e100]:
+            - generic [ref=e104]: High-grade, stage-specific poultry feed
+          - listitem [ref=e105]:
+            - generic [ref=e109]: Years of industry trust
+      - generic [ref=e113]:
+        - heading "10+" [level=3] [ref=e114]
+        - paragraph [ref=e115]: Years of Trust
+        - paragraph [ref=e116]: Delivering excellence in every flock.
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - heading "Our Gallery" [level=2] [ref=e120]
+        - paragraph [ref=e121]: A glimpse into the healthy birds, modern facilities, and hands-on support behind our poultry solutions.
+      - generic [ref=e122]:
+        - figure [ref=e123]:
+          - img "Free-range desi chickens on a green farm" [ref=e124]
+          - generic [ref=e125]: Free-Range Desi Birds
+        - figure [ref=e127]:
+          - img "Healthy day-old chicks in a clean brooder" [ref=e128]
+          - generic [ref=e129]: Healthy Day-Old Chicks
+        - figure [ref=e131]:
+          - img "Clean poultry shed with organized feeders and drinkers" [ref=e132]
+          - generic [ref=e133]: Modern Farm Facilities
+        - figure [ref=e135]:
+          - img "Poultry farmer inspecting a healthy desi chicken flock" [ref=e136]
+          - generic [ref=e137]: Farmer-Focused Support
+    - generic [ref=e140]:
+      - heading "Expert Farming Guidance" [level=2] [ref=e144]
+      - paragraph [ref=e145]: New to poultry farming? Or looking to scale? We provide hands-on training, farm management consultation, and lifecycle guidance to help you maximize your yield and minimize losses.
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - heading "Farm Setup" [level=4] [ref=e148]
+          - paragraph [ref=e149]: Guidance on shed construction, climate control, and initial equipment.
+        - generic [ref=e150]:
+          - heading "Health Management" [level=4] [ref=e151]
+          - paragraph [ref=e152]: Vaccination schedules, disease prevention, and nutrition plans.
+        - generic [ref=e153]:
+          - heading "Market Strategy" [level=4] [ref=e154]
+          - paragraph [ref=e155]: Tips on timing your sales and getting the best market rates.
+    - generic [ref=e157]:
+      - heading "Ready to Grow Your Poultry Business?" [level=2] [ref=e158]
+      - paragraph [ref=e159]: Partner with CC Agro for premium birds, quality feed, and expert farm guidance. Let's build a profitable future together.
+      - generic [ref=e160]:
+        - button "Contact Us Now" [ref=e161]
+        - button "WhatsApp Us" [ref=e162]
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - heading "CC Agro" [level=3] [ref=e166]
+          - paragraph [ref=e167]: Trusted Poultry Trading and Farm Growth Solutions. From chicks to chicken, feed to guidance.
+        - generic [ref=e168]:
+          - heading "Quick Links" [level=4] [ref=e169]
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - link "Our Offerings" [ref=e172] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e173]:
+              - link "Business Guidance" [ref=e174] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e175]:
+              - link "About Us" [ref=e176] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e177]:
+              - link "Contact" [ref=e178] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e179]:
+          - heading "Contact" [level=4] [ref=e180]
+          - list [ref=e181]:
+            - listitem [ref=e182]: +91 96572 72406
+            - listitem [ref=e183]: ccagro.official@gmail.com
+            - listitem [ref=e184]: 412306 Baramati, Pune, Maharashtra, India
+      - paragraph [ref=e186]: © 2026 CC Agro Poultry Trading. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=e192] [cursor=pointer]
+  - alert [ref=e196]

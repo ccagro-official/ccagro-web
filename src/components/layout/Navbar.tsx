@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Button } from "../ui/Button";
+import Image from "next/image";
+import { ButtonLink } from "../ui/Button";
 import { cn } from "@/lib/utils";
 
 export default function Navbar() {
@@ -21,18 +22,27 @@ export default function Navbar() {
       scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent"
     )}>
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-        <div className="text-2xl font-bold text-brand-dark tracking-tight">
-          CC <span className="text-brand-primary">Agro</span>
+        <div className="relative h-10 w-36 sm:h-12 sm:w-44" aria-label="CC Agro">
+          <Image
+            src="/images/cc-agro-logo.png"
+            alt="CC Agro — Your Trust Our Quality"
+            fill
+            sizes="(max-width: 640px) 144px, 176px"
+            className="object-cover"
+            preload
+          />
         </div>
         
         <div className="hidden md:flex items-center gap-8 text-brand-dark font-medium">
-          <a href="#" className="hover:text-brand-primary transition-colors">Offerings</a>
-          <a href="#" className="hover:text-brand-primary transition-colors">Process</a>
+          <a href="#guidance" className="hover:text-brand-primary transition-colors">Offerings</a>
+          <a href="#gallery" className="hover:text-brand-primary transition-colors">Gallery</a>
           <a href="#" className="hover:text-brand-primary transition-colors">Guidance</a>
         </div>
 
         <div className="flex items-center gap-4">
-          <Button size="sm" className="hidden sm:inline-flex">Get Quote</Button>
+          <ButtonLink href="#contact" size="sm" className="hidden sm:inline-flex">
+            Get Quote
+          </ButtonLink>
         </div>
       </div>
     </nav>

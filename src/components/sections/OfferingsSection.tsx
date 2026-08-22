@@ -35,7 +35,7 @@ const offerings = [
 
 export default function OfferingsSection() {
   return (
-    <section className="py-24 px-6 bg-white w-full">
+    <section id="services" className="scroll-mt-24 py-24 px-6 bg-white w-full">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl font-bold text-brand-dark">Our Products & Services</h2>
